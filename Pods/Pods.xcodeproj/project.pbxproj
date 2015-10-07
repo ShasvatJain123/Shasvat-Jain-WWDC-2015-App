@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05404AE48D81E44AD4A35032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B600AC195154F98EF284A49F /* Foundation.framework */; };
+		0E22E448EAE19AD466146055 /* Pods-Shasvat Jain-EARestrictedScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B1003489279395065C5D77 /* Pods-Shasvat Jain-EARestrictedScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		242BD80FAD7AECBC2C60689F /* EARestrictedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7CE05D02A328765D1630AE /* EARestrictedScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D4860E9B9F4ACE54B8FB97B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B600AC195154F98EF284A49F /* Foundation.framework */; };
+		39B77136EE58E7AE9EAE7D58 /* EAIntroPage.h in Headers */ = {isa = PBXBuildFile; fileRef = BF09E5CAB23682790890DC6A /* EAIntroPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E0C5A5252527069FE12F852 /* FBShimmeringLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE0417DFB91797C041BA34A /* FBShimmeringLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500FDD85D0B95F8F071C0027 /* EAIntroView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9C637B714F4DAD3D0BCB98 /* EAIntroView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		582464B2B55CBF59E735D130 /* EARestrictedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF0FADC5216D0214EC0073A /* EARestrictedScrollView.framework */; };
+		608D1A940369EC475D3AC382 /* Pods-Shasvat Jain-Shimmer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FDF167C5A5B3AEA18567B4 /* Pods-Shasvat Jain-Shimmer-dummy.m */; };
+		7B8333B27C5C0FF85DA66EF2 /* Pods-Shasvat Jain-Shimmer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2940A485BE028E0E27FE7B /* Pods-Shasvat Jain-Shimmer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E196F7866999D31048CDA53 /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A72F96CA679B2B52B0DF50 /* EAIntroPage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		91A4460699B88F340BFA6460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B600AC195154F98EF284A49F /* Foundation.framework */; };
+		93C77240C3E77435F20AA0E4 /* Pods-Shasvat Jain-EAIntroView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA61F6642355FE0BFD3E4ED1 /* Pods-Shasvat Jain-EAIntroView-dummy.m */; };
+		9DD4482ADD72E125997C0D13 /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6629BDCDB77EB316A27E3A4E /* EAIntroView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A8F09DFA058970C28B8B58B8 /* Pods-Shasvat Jain-EARestrictedScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA74D674F4550CD342F091B2 /* Pods-Shasvat Jain-EARestrictedScrollView-dummy.m */; };
+		B3FBE56C984C3CDFBEF3A7D8 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3BA8E2A51F2787EF9BEC96 /* FBShimmeringLayer.m */; };
+		BFE6F848262CED8895C5E6E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B600AC195154F98EF284A49F /* Foundation.framework */; };
+		C7A61E32AB55FE3A1CBA0F05 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB022276B25B3CCBC10EFEEB /* FBShimmeringView.m */; };
+		CDBC57075A8FB797BF5DAC22 /* FBShimmeringView.h in Headers */ = {isa = PBXBuildFile; fileRef = F80F90FF90C59D0DB2FBC7D1 /* FBShimmeringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D66482F8C8E0A6C0EDF33D5B /* Pods-Shasvat Jain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEABE0969FF529E83ABFE30 /* Pods-Shasvat Jain-dummy.m */; };
+		E15FFDE04215CF1B57E028EC /* Pods-Shasvat Jain-EAIntroView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FBFEFD8117C617B593CC01D /* Pods-Shasvat Jain-EAIntroView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E423350E0DEB468264F2E56A /* FBShimmering.h in Headers */ = {isa = PBXBuildFile; fileRef = F22248337CA17D99C601F8E8 /* FBShimmering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D0500CB58487FC80371580 /* EARestrictedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 94609A3680604DCF281BE575 /* EARestrictedScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC320974A151F7A11FDAA84A /* Pods-Shasvat Jain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E0949934A4A825332AEB5E /* Pods-Shasvat Jain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6614DE94C7659767C7F350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD59CB167042D5C105DD555D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D4F2E9E2BC2B4D38212325A;
+			remoteInfo = "Pods-Shasvat Jain-EAIntroView";
+		};
+		93052AD5EAB5C2B53B691329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD59CB167042D5C105DD555D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDED4F2D4138A430361E7B0C;
+			remoteInfo = "Pods-Shasvat Jain-EARestrictedScrollView";
+		};
+		BE85423BEC08F4C25D02F64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD59CB167042D5C105DD555D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A76B52812E504E8C2557BE8;
+			remoteInfo = "Pods-Shasvat Jain-Shimmer";
+		};
+		C43B58E2E311B49F794DD05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD59CB167042D5C105DD555D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDED4F2D4138A430361E7B0C;
+			remoteInfo = "Pods-Shasvat Jain-EARestrictedScrollView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16FDF167C5A5B3AEA18567B4 /* Pods-Shasvat Jain-Shimmer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shasvat Jain-Shimmer-dummy.m"; sourceTree = "<group>"; };
+		1BD990214BD2C34687F8713D /* EARestrictedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EARestrictedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE83F94EF8EBF2AC8009B54 /* Pods-Shasvat Jain-EARestrictedScrollView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shasvat Jain-EARestrictedScrollView-Private.xcconfig"; sourceTree = "<group>"; };
+		1D34B561F1B15AC01ED0B80B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B1003489279395065C5D77 /* Pods-Shasvat Jain-EARestrictedScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shasvat Jain-EARestrictedScrollView-umbrella.h"; sourceTree = "<group>"; };
+		27E0949934A4A825332AEB5E /* Pods-Shasvat Jain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shasvat Jain-umbrella.h"; sourceTree = "<group>"; };
+		2C4BD7353C2935F834C8C5BC /* Pods-Shasvat Jain-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shasvat Jain-resources.sh"; sourceTree = "<group>"; };
+		2E5AD487224D16D71A98A1FF /* Pods-Shasvat Jain-EARestrictedScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shasvat Jain-EARestrictedScrollView-prefix.pch"; sourceTree = "<group>"; };
+		3F468DC5C81A3EC8708013ED /* Pods-Shasvat Jain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shasvat Jain.release.xcconfig"; sourceTree = "<group>"; };
+		4EF0FADC5216D0214EC0073A /* EARestrictedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EARestrictedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBEB2C1A5A39DE02EBBD303 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBFEFD8117C617B593CC01D /* Pods-Shasvat Jain-EAIntroView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shasvat Jain-EAIntroView-umbrella.h"; sourceTree = "<group>"; };
+		57BF45D214F420DD1CBE5671 /* Pods-Shasvat Jain-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shasvat Jain-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59DF2D341FD6CDDCC9B160C4 /* Shimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BAF0A1DF0DAE31DED2B6CF /* Pods-Shasvat Jain-EAIntroView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shasvat Jain-EAIntroView.modulemap"; sourceTree = "<group>"; };
+		6286DD49FA16366445250DC4 /* Pods-Shasvat Jain-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shasvat Jain-frameworks.sh"; sourceTree = "<group>"; };
+		658B046B0D280E890FD3171E /* Pods-Shasvat Jain-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shasvat Jain-acknowledgements.plist"; sourceTree = "<group>"; };
+		6629BDCDB77EB316A27E3A4E /* EAIntroView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroView.m; path = EAIntroView/EAIntroView.m; sourceTree = "<group>"; };
+		75353AEEC161BA115453E3FF /* Pods-Shasvat Jain-EAIntroView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shasvat Jain-EAIntroView-prefix.pch"; sourceTree = "<group>"; };
+		7A2940A485BE028E0E27FE7B /* Pods-Shasvat Jain-Shimmer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shasvat Jain-Shimmer-umbrella.h"; sourceTree = "<group>"; };
+		7A4A20AE0254ADD7D9F99F3C /* Pods-Shasvat Jain-Shimmer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shasvat Jain-Shimmer.modulemap"; sourceTree = "<group>"; };
+		825B12F6B4D7EBB06E723A9F /* Pods-Shasvat Jain-EAIntroView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shasvat Jain-EAIntroView-Private.xcconfig"; sourceTree = "<group>"; };
+		85F0CF15892B2503532C5F8B /* Pods-Shasvat Jain-Shimmer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shasvat Jain-Shimmer-Private.xcconfig"; sourceTree = "<group>"; };
+		94609A3680604DCF281BE575 /* EARestrictedScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EARestrictedScrollView.h; path = EARestrictedScrollView/EARestrictedScrollView.h; sourceTree = "<group>"; };
+		969CB0732C6CD7D472647E6B /* Pods-Shasvat Jain-EAIntroView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shasvat Jain-EAIntroView.xcconfig"; sourceTree = "<group>"; };
+		9B9C637B714F4DAD3D0BCB98 /* EAIntroView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroView.h; path = EAIntroView/EAIntroView.h; sourceTree = "<group>"; };
+		9DB30EF8CA89BE9FF864069D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2A72F96CA679B2B52B0DF50 /* EAIntroPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroPage.m; path = EAIntroView/EAIntroPage.m; sourceTree = "<group>"; };
+		ACDA961E6A0A480E95B09FEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DE0C1606F474340592F58E /* Pods-Shasvat Jain-EARestrictedScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shasvat Jain-EARestrictedScrollView.modulemap"; sourceTree = "<group>"; };
+		B600AC195154F98EF284A49F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA74D674F4550CD342F091B2 /* Pods-Shasvat Jain-EARestrictedScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shasvat Jain-EARestrictedScrollView-dummy.m"; sourceTree = "<group>"; };
+		BC3BA8E2A51F2787EF9BEC96 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringLayer.m; path = FBShimmering/FBShimmeringLayer.m; sourceTree = "<group>"; };
+		BD7CE05D02A328765D1630AE /* EARestrictedScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EARestrictedScrollView.m; path = EARestrictedScrollView/EARestrictedScrollView.m; sourceTree = "<group>"; };
+		BF09E5CAB23682790890DC6A /* EAIntroPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroPage.h; path = EAIntroView/EAIntroPage.h; sourceTree = "<group>"; };
+		BFE0417DFB91797C041BA34A /* FBShimmeringLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringLayer.h; path = FBShimmering/FBShimmeringLayer.h; sourceTree = "<group>"; };
+		C623EA8C99A31070FA5ACA1C /* Pods-Shasvat Jain-Shimmer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shasvat Jain-Shimmer.xcconfig"; sourceTree = "<group>"; };
+		C864CD8CDA3DBF26024A7A3F /* Pods-Shasvat Jain-EARestrictedScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shasvat Jain-EARestrictedScrollView.xcconfig"; sourceTree = "<group>"; };
+		C9F485FEE50E10059602C03F /* Pods-Shasvat Jain-Shimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shasvat Jain-Shimmer-prefix.pch"; sourceTree = "<group>"; };
+		CB022276B25B3CCBC10EFEEB /* FBShimmeringView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringView.m; path = FBShimmering/FBShimmeringView.m; sourceTree = "<group>"; };
+		CDEABE0969FF529E83ABFE30 /* Pods-Shasvat Jain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shasvat Jain-dummy.m"; sourceTree = "<group>"; };
+		D0CAA389C1342F7721F8040C /* Pods-Shasvat Jain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shasvat Jain.modulemap"; sourceTree = "<group>"; };
+		D7A60313A3089A885B30AC67 /* Pods-Shasvat Jain-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shasvat Jain-environment.h"; sourceTree = "<group>"; };
+		D8A23D038FE32F5B3D9B5111 /* Pods-Shasvat Jain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shasvat Jain.debug.xcconfig"; sourceTree = "<group>"; };
+		DA61F6642355FE0BFD3E4ED1 /* Pods-Shasvat Jain-EAIntroView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shasvat Jain-EAIntroView-dummy.m"; sourceTree = "<group>"; };
+		EB0DB35538D45C721424323D /* Pods_Shasvat_Jain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shasvat_Jain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE167BBFE80B575EFB52761F /* EAIntroView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EAIntroView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE203AC03F7E109AD3F85661 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22248337CA17D99C601F8E8 /* FBShimmering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmering.h; path = FBShimmering/FBShimmering.h; sourceTree = "<group>"; };
+		F80F90FF90C59D0DB2FBC7D1 /* FBShimmeringView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringView.h; path = FBShimmering/FBShimmeringView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CF9E6E75FBE8C74BED72E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE6F848262CED8895C5E6E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D983B31F670E753CD39BBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4860E9B9F4ACE54B8FB97B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947FB65F075EF6A4B3ED43AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A4460699B88F340BFA6460 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2909225AD9F94BD8C2E3BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582464B2B55CBF59E735D130 /* EARestrictedScrollView.framework in Frameworks */,
+				05404AE48D81E44AD4A35032 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CC059DF119408920927EFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EF0FADC5216D0214EC0073A /* EARestrictedScrollView.framework */,
+				3B0DF43E0A02487CD4E20650 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B0DF43E0A02487CD4E20650 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B600AC195154F98EF284A49F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		49130E6B5C1B44B5796688F5 = {
+			isa = PBXGroup;
+			children = (
+				9DB30EF8CA89BE9FF864069D /* Podfile */,
+				18CC059DF119408920927EFA /* Frameworks */,
+				A44FFCE9A3795857B0FEDE48 /* Pods */,
+				E797A7FDA7D1BB67623FA2E8 /* Products */,
+				64519ABE8E3F9EB10B1DC616 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		64519ABE8E3F9EB10B1DC616 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72A500C5040480D0D59FC259 /* Pods-Shasvat Jain */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		72815129B07AEB118B37B437 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FBEB2C1A5A39DE02EBBD303 /* Info.plist */,
+				60BAF0A1DF0DAE31DED2B6CF /* Pods-Shasvat Jain-EAIntroView.modulemap */,
+				969CB0732C6CD7D472647E6B /* Pods-Shasvat Jain-EAIntroView.xcconfig */,
+				825B12F6B4D7EBB06E723A9F /* Pods-Shasvat Jain-EAIntroView-Private.xcconfig */,
+				DA61F6642355FE0BFD3E4ED1 /* Pods-Shasvat Jain-EAIntroView-dummy.m */,
+				75353AEEC161BA115453E3FF /* Pods-Shasvat Jain-EAIntroView-prefix.pch */,
+				4FBFEFD8117C617B593CC01D /* Pods-Shasvat Jain-EAIntroView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Shasvat Jain-EAIntroView";
+			sourceTree = "<group>";
+		};
+		72A500C5040480D0D59FC259 /* Pods-Shasvat Jain */ = {
+			isa = PBXGroup;
+			children = (
+				ACDA961E6A0A480E95B09FEF /* Info.plist */,
+				D0CAA389C1342F7721F8040C /* Pods-Shasvat Jain.modulemap */,
+				57BF45D214F420DD1CBE5671 /* Pods-Shasvat Jain-acknowledgements.markdown */,
+				658B046B0D280E890FD3171E /* Pods-Shasvat Jain-acknowledgements.plist */,
+				CDEABE0969FF529E83ABFE30 /* Pods-Shasvat Jain-dummy.m */,
+				D7A60313A3089A885B30AC67 /* Pods-Shasvat Jain-environment.h */,
+				6286DD49FA16366445250DC4 /* Pods-Shasvat Jain-frameworks.sh */,
+				2C4BD7353C2935F834C8C5BC /* Pods-Shasvat Jain-resources.sh */,
+				27E0949934A4A825332AEB5E /* Pods-Shasvat Jain-umbrella.h */,
+				D8A23D038FE32F5B3D9B5111 /* Pods-Shasvat Jain.debug.xcconfig */,
+				3F468DC5C81A3EC8708013ED /* Pods-Shasvat Jain.release.xcconfig */,
+			);
+			name = "Pods-Shasvat Jain";
+			path = "Target Support Files/Pods-Shasvat Jain";
+			sourceTree = "<group>";
+		};
+		A44FFCE9A3795857B0FEDE48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3C4B0FA0A1981E0CF972097 /* EAIntroView */,
+				DC3E32D8DDF59EC4A57DF98B /* EARestrictedScrollView */,
+				A451533EC15F76B7B2328B3E /* Shimmer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A451533EC15F76B7B2328B3E /* Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				F22248337CA17D99C601F8E8 /* FBShimmering.h */,
+				BFE0417DFB91797C041BA34A /* FBShimmeringLayer.h */,
+				BC3BA8E2A51F2787EF9BEC96 /* FBShimmeringLayer.m */,
+				F80F90FF90C59D0DB2FBC7D1 /* FBShimmeringView.h */,
+				CB022276B25B3CCBC10EFEEB /* FBShimmeringView.m */,
+				FB70A30BD1882A96B81EEAA9 /* Support Files */,
+			);
+			path = Shimmer;
+			sourceTree = "<group>";
+		};
+		D11FD55E33940D562343DD0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D34B561F1B15AC01ED0B80B /* Info.plist */,
+				B5DE0C1606F474340592F58E /* Pods-Shasvat Jain-EARestrictedScrollView.modulemap */,
+				C864CD8CDA3DBF26024A7A3F /* Pods-Shasvat Jain-EARestrictedScrollView.xcconfig */,
+				1BE83F94EF8EBF2AC8009B54 /* Pods-Shasvat Jain-EARestrictedScrollView-Private.xcconfig */,
+				BA74D674F4550CD342F091B2 /* Pods-Shasvat Jain-EARestrictedScrollView-dummy.m */,
+				2E5AD487224D16D71A98A1FF /* Pods-Shasvat Jain-EARestrictedScrollView-prefix.pch */,
+				27B1003489279395065C5D77 /* Pods-Shasvat Jain-EARestrictedScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Shasvat Jain-EARestrictedScrollView";
+			sourceTree = "<group>";
+		};
+		D3C4B0FA0A1981E0CF972097 /* EAIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				BF09E5CAB23682790890DC6A /* EAIntroPage.h */,
+				A2A72F96CA679B2B52B0DF50 /* EAIntroPage.m */,
+				9B9C637B714F4DAD3D0BCB98 /* EAIntroView.h */,
+				6629BDCDB77EB316A27E3A4E /* EAIntroView.m */,
+				72815129B07AEB118B37B437 /* Support Files */,
+			);
+			path = EAIntroView;
+			sourceTree = "<group>";
+		};
+		DC3E32D8DDF59EC4A57DF98B /* EARestrictedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				94609A3680604DCF281BE575 /* EARestrictedScrollView.h */,
+				BD7CE05D02A328765D1630AE /* EARestrictedScrollView.m */,
+				D11FD55E33940D562343DD0C /* Support Files */,
+			);
+			path = EARestrictedScrollView;
+			sourceTree = "<group>";
+		};
+		E797A7FDA7D1BB67623FA2E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE167BBFE80B575EFB52761F /* EAIntroView.framework */,
+				1BD990214BD2C34687F8713D /* EARestrictedScrollView.framework */,
+				EB0DB35538D45C721424323D /* Pods_Shasvat_Jain.framework */,
+				59DF2D341FD6CDDCC9B160C4 /* Shimmer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB70A30BD1882A96B81EEAA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE203AC03F7E109AD3F85661 /* Info.plist */,
+				7A4A20AE0254ADD7D9F99F3C /* Pods-Shasvat Jain-Shimmer.modulemap */,
+				C623EA8C99A31070FA5ACA1C /* Pods-Shasvat Jain-Shimmer.xcconfig */,
+				85F0CF15892B2503532C5F8B /* Pods-Shasvat Jain-Shimmer-Private.xcconfig */,
+				16FDF167C5A5B3AEA18567B4 /* Pods-Shasvat Jain-Shimmer-dummy.m */,
+				C9F485FEE50E10059602C03F /* Pods-Shasvat Jain-Shimmer-prefix.pch */,
+				7A2940A485BE028E0E27FE7B /* Pods-Shasvat Jain-Shimmer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Shasvat Jain-Shimmer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F960CD39C3728996E415CBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D0500CB58487FC80371580 /* EARestrictedScrollView.h in Headers */,
+				0E22E448EAE19AD466146055 /* Pods-Shasvat Jain-EARestrictedScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927BDA6901906337187276AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E423350E0DEB468264F2E56A /* FBShimmering.h in Headers */,
+				3E0C5A5252527069FE12F852 /* FBShimmeringLayer.h in Headers */,
+				CDBC57075A8FB797BF5DAC22 /* FBShimmeringView.h in Headers */,
+				7B8333B27C5C0FF85DA66EF2 /* Pods-Shasvat Jain-Shimmer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5FE88B607D3FC62AC4D8AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC320974A151F7A11FDAA84A /* Pods-Shasvat Jain-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD9BD63C60B0E284B2A8D1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B77136EE58E7AE9EAE7D58 /* EAIntroPage.h in Headers */,
+				500FDD85D0B95F8F071C0027 /* EAIntroView.h in Headers */,
+				E15FFDE04215CF1B57E028EC /* Pods-Shasvat Jain-EAIntroView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A76B52812E504E8C2557BE8 /* Pods-Shasvat Jain-Shimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052E85C4285134756371F935 /* Build configuration list for PBXNativeTarget "Pods-Shasvat Jain-Shimmer" */;
+			buildPhases = (
+				42D19B54144C635F0A2BEC29 /* Sources */,
+				0CF9E6E75FBE8C74BED72E44 /* Frameworks */,
+				927BDA6901906337187276AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Shasvat Jain-Shimmer";
+			productName = "Pods-Shasvat Jain-Shimmer";
+			productReference = 59DF2D341FD6CDDCC9B160C4 /* Shimmer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D4F2E9E2BC2B4D38212325A /* Pods-Shasvat Jain-EAIntroView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C4F00FEFE3B093200C9650 /* Build configuration list for PBXNativeTarget "Pods-Shasvat Jain-EAIntroView" */;
+			buildPhases = (
+				3B8CA4C795F5F5096CC41C1B /* Sources */,
+				D2909225AD9F94BD8C2E3BDF /* Frameworks */,
+				DBD9BD63C60B0E284B2A8D1A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F1883E7E817BCF914A9105 /* PBXTargetDependency */,
+			);
+			name = "Pods-Shasvat Jain-EAIntroView";
+			productName = "Pods-Shasvat Jain-EAIntroView";
+			productReference = EE167BBFE80B575EFB52761F /* EAIntroView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D46B5E6C7F55040560ABF411 /* Pods-Shasvat Jain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14700F73CEF51B72652A4D2 /* Build configuration list for PBXNativeTarget "Pods-Shasvat Jain" */;
+			buildPhases = (
+				FD56A5AAEC3F2069D234EE64 /* Sources */,
+				947FB65F075EF6A4B3ED43AC /* Frameworks */,
+				9C5FE88B607D3FC62AC4D8AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465E88CEB96C3D1E6A784167 /* PBXTargetDependency */,
+				A11DFD059F420D7E17C5CB2A /* PBXTargetDependency */,
+				0F2D9451B4242D388CE36A1A /* PBXTargetDependency */,
+			);
+			name = "Pods-Shasvat Jain";
+			productName = "Pods-Shasvat Jain";
+			productReference = EB0DB35538D45C721424323D /* Pods_Shasvat_Jain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDED4F2D4138A430361E7B0C /* Pods-Shasvat Jain-EARestrictedScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE56BEFD1414D573C4EB06BF /* Build configuration list for PBXNativeTarget "Pods-Shasvat Jain-EARestrictedScrollView" */;
+			buildPhases = (
+				30655BACB89A91C1CC762867 /* Sources */,
+				8D983B31F670E753CD39BBBD /* Frameworks */,
+				2F960CD39C3728996E415CBE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Shasvat Jain-EARestrictedScrollView";
+			productName = "Pods-Shasvat Jain-EARestrictedScrollView";
+			productReference = 1BD990214BD2C34687F8713D /* EARestrictedScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD59CB167042D5C105DD555D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 58AA78CE43D5F4010168D334 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49130E6B5C1B44B5796688F5;
+			productRefGroup = E797A7FDA7D1BB67623FA2E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D46B5E6C7F55040560ABF411 /* Pods-Shasvat Jain */,
+				4D4F2E9E2BC2B4D38212325A /* Pods-Shasvat Jain-EAIntroView */,
+				EDED4F2D4138A430361E7B0C /* Pods-Shasvat Jain-EARestrictedScrollView */,
+				3A76B52812E504E8C2557BE8 /* Pods-Shasvat Jain-Shimmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30655BACB89A91C1CC762867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242BD80FAD7AECBC2C60689F /* EARestrictedScrollView.m in Sources */,
+				A8F09DFA058970C28B8B58B8 /* Pods-Shasvat Jain-EARestrictedScrollView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8CA4C795F5F5096CC41C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E196F7866999D31048CDA53 /* EAIntroPage.m in Sources */,
+				9DD4482ADD72E125997C0D13 /* EAIntroView.m in Sources */,
+				93C77240C3E77435F20AA0E4 /* Pods-Shasvat Jain-EAIntroView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D19B54144C635F0A2BEC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FBE56C984C3CDFBEF3A7D8 /* FBShimmeringLayer.m in Sources */,
+				C7A61E32AB55FE3A1CBA0F05 /* FBShimmeringView.m in Sources */,
+				608D1A940369EC475D3AC382 /* Pods-Shasvat Jain-Shimmer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD56A5AAEC3F2069D234EE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66482F8C8E0A6C0EDF33D5B /* Pods-Shasvat Jain-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F2D9451B4242D388CE36A1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Shasvat Jain-Shimmer";
+			target = 3A76B52812E504E8C2557BE8 /* Pods-Shasvat Jain-Shimmer */;
+			targetProxy = BE85423BEC08F4C25D02F64D /* PBXContainerItemProxy */;
+		};
+		465E88CEB96C3D1E6A784167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Shasvat Jain-EAIntroView";
+			target = 4D4F2E9E2BC2B4D38212325A /* Pods-Shasvat Jain-EAIntroView */;
+			targetProxy = 7B6614DE94C7659767C7F350 /* PBXContainerItemProxy */;
+		};
+		84F1883E7E817BCF914A9105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Shasvat Jain-EARestrictedScrollView";
+			target = EDED4F2D4138A430361E7B0C /* Pods-Shasvat Jain-EARestrictedScrollView */;
+			targetProxy = 93052AD5EAB5C2B53B691329 /* PBXContainerItemProxy */;
+		};
+		A11DFD059F420D7E17C5CB2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Shasvat Jain-EARestrictedScrollView";
+			target = EDED4F2D4138A430361E7B0C /* Pods-Shasvat Jain-EARestrictedScrollView */;
+			targetProxy = C43B58E2E311B49F794DD05F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02BCB48DF9A296B49BA3A5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825B12F6B4D7EBB06E723A9F /* Pods-Shasvat Jain-EAIntroView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shasvat Jain-EAIntroView/Pods-Shasvat Jain-EAIntroView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shasvat Jain-EAIntroView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shasvat Jain-EAIntroView/Pods-Shasvat Jain-EAIntroView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EAIntroView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DCF81F0E9EAA864782C710F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F468DC5C81A3EC8708013ED /* Pods-Shasvat Jain.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shasvat Jain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shasvat Jain/Pods-Shasvat Jain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Shasvat_Jain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AA25C765EC4F7D0198E82FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825B12F6B4D7EBB06E723A9F /* Pods-Shasvat Jain-EAIntroView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shasvat Jain-EAIntroView/Pods-Shasvat Jain-EAIntroView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shasvat Jain-EAIntroView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shasvat Jain-EAIntroView/Pods-Shasvat Jain-EAIntroView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EAIntroView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		559A109676BDB14C3571C57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72197FDFE828D1910DFE5729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE83F94EF8EBF2AC8009B54 /* Pods-Shasvat Jain-EARestrictedScrollView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shasvat Jain-EARestrictedScrollView/Pods-Shasvat Jain-EARestrictedScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shasvat Jain-EARestrictedScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shasvat Jain-EARestrictedScrollView/Pods-Shasvat Jain-EARestrictedScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EARestrictedScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88D85E5EECF45B350055C6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A23D038FE32F5B3D9B5111 /* Pods-Shasvat Jain.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shasvat Jain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shasvat Jain/Pods-Shasvat Jain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Shasvat_Jain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B61DAD33E7E925CA28B29032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F0CF15892B2503532C5F8B /* Pods-Shasvat Jain-Shimmer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shasvat Jain-Shimmer/Pods-Shasvat Jain-Shimmer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shasvat Jain-Shimmer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shasvat Jain-Shimmer/Pods-Shasvat Jain-Shimmer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Shimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFCB02BB6E86B8834088533E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2B602143B839486BFF839BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE83F94EF8EBF2AC8009B54 /* Pods-Shasvat Jain-EARestrictedScrollView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shasvat Jain-EARestrictedScrollView/Pods-Shasvat Jain-EARestrictedScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shasvat Jain-EARestrictedScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shasvat Jain-EARestrictedScrollView/Pods-Shasvat Jain-EARestrictedScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EARestrictedScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2F777D9DD4B6DDA4E50D266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F0CF15892B2503532C5F8B /* Pods-Shasvat Jain-Shimmer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shasvat Jain-Shimmer/Pods-Shasvat Jain-Shimmer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shasvat Jain-Shimmer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shasvat Jain-Shimmer/Pods-Shasvat Jain-Shimmer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Shimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052E85C4285134756371F935 /* Build configuration list for PBXNativeTarget "Pods-Shasvat Jain-Shimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61DAD33E7E925CA28B29032 /* Debug */,
+				E2F777D9DD4B6DDA4E50D266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58AA78CE43D5F4010168D334 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559A109676BDB14C3571C57F /* Debug */,
+				BFCB02BB6E86B8834088533E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C4F00FEFE3B093200C9650 /* Build configuration list for PBXNativeTarget "Pods-Shasvat Jain-EAIntroView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BCB48DF9A296B49BA3A5B1 /* Debug */,
+				4AA25C765EC4F7D0198E82FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE56BEFD1414D573C4EB06BF /* Build configuration list for PBXNativeTarget "Pods-Shasvat Jain-EARestrictedScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72197FDFE828D1910DFE5729 /* Debug */,
+				E2B602143B839486BFF839BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14700F73CEF51B72652A4D2 /* Build configuration list for PBXNativeTarget "Pods-Shasvat Jain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D85E5EECF45B350055C6FB /* Debug */,
+				2DCF81F0E9EAA864782C710F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD59CB167042D5C105DD555D /* Project object */;
+}

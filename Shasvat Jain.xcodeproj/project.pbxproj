@@ -1,0 +1,930 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1348238B1AEC051000B7AD46 /* Hobbies@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348238A1AEC051000B7AD46 /* Hobbies@3x.png */; };
+		134823921AEC0AB600B7AD46 /* Company@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823901AEC0AB600B7AD46 /* Company@2x.png */; };
+		134823931AEC0AB600B7AD46 /* Company@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823911AEC0AB600B7AD46 /* Company@3x.png */; };
+		134823961AEC0C6E00B7AD46 /* Education@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823941AEC0C6E00B7AD46 /* Education@3x.png */; };
+		134823971AEC0C6E00B7AD46 /* Education@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823951AEC0C6E00B7AD46 /* Education@2x.png */; };
+		1348239A1AEC0F1700B7AD46 /* future@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823981AEC0F1700B7AD46 /* future@2x.png */; };
+		1348239B1AEC0F1700B7AD46 /* future@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823991AEC0F1700B7AD46 /* future@3x.png */; };
+		1348239E1AEC11DB00B7AD46 /* inspiration@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348239C1AEC11DB00B7AD46 /* inspiration@2x.png */; };
+		1348239F1AEC11DB00B7AD46 /* inspiration@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348239D1AEC11DB00B7AD46 /* inspiration@3x.png */; };
+		134823A21AEC131F00B7AD46 /* achievements@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823A01AEC131F00B7AD46 /* achievements@2x.png */; };
+		134823A31AEC131F00B7AD46 /* achievements@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823A11AEC131F00B7AD46 /* achievements@3x.png */; };
+		134823A61AEC15A400B7AD46 /* Xcode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823A41AEC15A400B7AD46 /* Xcode@2x.png */; };
+		134823A71AEC15A400B7AD46 /* Xcode@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823A51AEC15A400B7AD46 /* Xcode@3x.png */; };
+		134823AA1AEC17D900B7AD46 /* Skills@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823A81AEC17D900B7AD46 /* Skills@2x.png */; };
+		134823AB1AEC17D900B7AD46 /* Skills@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823A91AEC17D900B7AD46 /* Skills@3x.png */; };
+		134823AE1AEC1A8000B7AD46 /* Photoshop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823AC1AEC1A8000B7AD46 /* Photoshop@3x.png */; };
+		134823AF1AEC1A8000B7AD46 /* Photoshop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823AD1AEC1A8000B7AD46 /* Photoshop@2x.png */; };
+		134823B21AEC1B3A00B7AD46 /* Sketch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823B01AEC1B3A00B7AD46 /* Sketch@3x.png */; };
+		134823B31AEC1B3A00B7AD46 /* Sketch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823B11AEC1B3A00B7AD46 /* Sketch@2x.png */; };
+		134823B81AEC1CD500B7AD46 /* illustrator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823B41AEC1CD500B7AD46 /* illustrator@2x.png */; };
+		134823B91AEC1CD500B7AD46 /* illustrator@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823B51AEC1CD500B7AD46 /* illustrator@3x.png */; };
+		134823BA1AEC1CD500B7AD46 /* AfterEffect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823B61AEC1CD500B7AD46 /* AfterEffect@3x.png */; };
+		134823BB1AEC1CD500B7AD46 /* AfterEffect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823B71AEC1CD500B7AD46 /* AfterEffect@2x.png */; };
+		134823BE1AEC229700B7AD46 /* Social@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823BC1AEC229600B7AD46 /* Social@3x.png */; };
+		134823BF1AEC229700B7AD46 /* Social@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823BD1AEC229700B7AD46 /* Social@2x.png */; };
+		134823C21AEC260400B7AD46 /* MyApps@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823C01AEC260300B7AD46 /* MyApps@3x.png */; };
+		134823C31AEC260400B7AD46 /* MyApps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823C11AEC260400B7AD46 /* MyApps@2x.png */; };
+		134823C91AEC294900B7AD46 /* SolitaryGuide@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823C51AEC294900B7AD46 /* SolitaryGuide@3x.png */; };
+		134823CA1AEC294900B7AD46 /* SolitaryGuide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823C61AEC294900B7AD46 /* SolitaryGuide@2x.png */; };
+		134823D11AEC2DFD00B7AD46 /* IDN@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823CD1AEC2DFD00B7AD46 /* IDN@3x.png */; };
+		134823D21AEC2DFD00B7AD46 /* IDN@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823CE1AEC2DFD00B7AD46 /* IDN@2x.png */; };
+		134823D91AEC30BB00B7AD46 /* Smbc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823D51AEC30BB00B7AD46 /* Smbc@2x.png */; };
+		134823DA1AEC30BB00B7AD46 /* Smbc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823D61AEC30BB00B7AD46 /* Smbc@3x.png */; };
+		134823E01AEC335200B7AD46 /* FlickyNinja@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823DC1AEC335200B7AD46 /* FlickyNinja@3x.png */; };
+		134823E31AEC335200B7AD46 /* FlickyNinja@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823DF1AEC335200B7AD46 /* FlickyNinja@2x.png */; };
+		134823F81AEC3A0200B7AD46 /* Twitter@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134823F41AEC3A0200B7AD46 /* Twitter@3x.png */; };
+		EAB70201FE270E97C65B049A /* Pods_Shasvat_Jain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825FDB5C32FFCEBFDC5EAD06 /* Pods_Shasvat_Jain.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD1B4DB61AED3FEC00014017 /* Shasvat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B4DB41AED3FEC00014017 /* Shasvat@2x.png */; };
+		FD1B4DB71AED3FEC00014017 /* Shasvat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B4DB51AED3FEC00014017 /* Shasvat@3x.png */; };
+		FD1B4DBC1AED491300014017 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B4DB81AED491300014017 /* bg2.png */; };
+		FD1B4DBD1AED491300014017 /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B4DB91AED491300014017 /* bg3.png */; };
+		FD1B4DBE1AED491300014017 /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B4DBA1AED491300014017 /* bg4.png */; };
+		FD1B4DBF1AED491300014017 /* bg5.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B4DBB1AED491300014017 /* bg5.png */; };
+		FD1B4E1C1AED4C7100014017 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4DFE1AED4C7100014017 /* AsyncButton.swift */; };
+		FD1B4E1D1AED4C7100014017 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4DFF1AED4C7100014017 /* AsyncImageView.swift */; };
+		FD1B4E1E1AED4C7100014017 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E001AED4C7100014017 /* AutoTextView.swift */; };
+		FD1B4E1F1AED4C7100014017 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E011AED4C7100014017 /* BlurView.swift */; };
+		FD1B4E201AED4C7100014017 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E021AED4C7100014017 /* DesignableButton.swift */; };
+		FD1B4E211AED4C7100014017 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E031AED4C7100014017 /* DesignableImageView.swift */; };
+		FD1B4E221AED4C7100014017 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E041AED4C7100014017 /* DesignableLabel.swift */; };
+		FD1B4E231AED4C7100014017 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E051AED4C7100014017 /* DesignableTabBarController.swift */; };
+		FD1B4E241AED4C7100014017 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E061AED4C7100014017 /* DesignableTextField.swift */; };
+		FD1B4E251AED4C7100014017 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E071AED4C7100014017 /* DesignableTextView.swift */; };
+		FD1B4E261AED4C7100014017 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E081AED4C7100014017 /* DesignableView.swift */; };
+		FD1B4E271AED4C7100014017 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E091AED4C7100014017 /* ImageLoader.swift */; };
+		FD1B4E281AED4C7100014017 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD1B4E0A1AED4C7100014017 /* Info.plist */; };
+		FD1B4E291AED4C7100014017 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E0B1AED4C7100014017 /* KeyboardLayoutConstraint.swift */; };
+		FD1B4E2A1AED4C7100014017 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E0C1AED4C7100014017 /* LoadingView.swift */; };
+		FD1B4E2B1AED4C7100014017 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD1B4E0D1AED4C7100014017 /* LoadingView.xib */; };
+		FD1B4E2C1AED4C7100014017 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E0E1AED4C7100014017 /* Misc.swift */; };
+		FD1B4E2D1AED4C7100014017 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E0F1AED4C7100014017 /* SoundPlayer.swift */; };
+		FD1B4E2E1AED4C7100014017 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E111AED4C7100014017 /* Spring.swift */; };
+		FD1B4E2F1AED4C7100014017 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E121AED4C7100014017 /* SpringAnimation.swift */; };
+		FD1B4E301AED4C7100014017 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E131AED4C7100014017 /* SpringButton.swift */; };
+		FD1B4E311AED4C7100014017 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E141AED4C7100014017 /* SpringImageView.swift */; };
+		FD1B4E321AED4C7100014017 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E151AED4C7100014017 /* SpringLabel.swift */; };
+		FD1B4E331AED4C7100014017 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E161AED4C7100014017 /* SpringTextField.swift */; };
+		FD1B4E341AED4C7100014017 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E171AED4C7100014017 /* SpringTextView.swift */; };
+		FD1B4E351AED4C7100014017 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E181AED4C7100014017 /* SpringView.swift */; };
+		FD1B4E361AED4C7100014017 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E191AED4C7100014017 /* TransitionManager.swift */; };
+		FD1B4E371AED4C7100014017 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E1A1AED4C7100014017 /* TransitionZoom.swift */; };
+		FD1B4E381AED4C7100014017 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4E1B1AED4C7100014017 /* UnwindSegue.swift */; };
+		FD58E7D31AEB763000F660DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58E7D21AEB763000F660DA /* main.m */; };
+		FD58E7D61AEB763000F660DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58E7D51AEB763000F660DA /* AppDelegate.m */; };
+		FD58E7D91AEB763000F660DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58E7D81AEB763000F660DA /* ViewController.m */; };
+		FD58E7DC1AEB763000F660DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD58E7DA1AEB763000F660DA /* Main.storyboard */; };
+		FD58E7DE1AEB763000F660DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD58E7DD1AEB763000F660DA /* Images.xcassets */; };
+		FD58E7ED1AEB763000F660DA /* Shasvat_JainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58E7EC1AEB763000F660DA /* Shasvat_JainTests.m */; };
+		FD58E7F81AEB7BCA00F660DA /* myswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58E7F71AEB7BCA00F660DA /* myswift.swift */; };
+		FD58E8001AEB801B00F660DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD58E7FF1AEB801B00F660DA /* Foundation.framework */; };
+		FD58E8021AEB802000F660DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD58E8011AEB802000F660DA /* UIKit.framework */; };
+		FD58E8041AEB802700F660DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD58E8031AEB802700F660DA /* CoreGraphics.framework */; };
+		FD58E8071AEB80A000F660DA /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58E8061AEB80A000F660DA /* SecondView.m */; };
+		FD58E80C1AEB952200F660DA /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FD58E80B1AEB952200F660DA /* bg.png */; };
+		FD58E80F1AEB99C200F660DA /* skill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD58E80D1AEB99C200F660DA /* skill@2x.png */; };
+		FD58E8101AEB99C200F660DA /* skill@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD58E80E1AEB99C200F660DA /* skill@3x.png */; };
+		FD7E0D8A1AEBD31E0097C2C7 /* shasvat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7E0D881AEBD31E0097C2C7 /* shasvat@3x.png */; };
+		FD7E0D8D1AEBD4E30097C2C7 /* Apps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7E0D8B1AEBD4E30097C2C7 /* Apps@2x.png */; };
+		FD7E0D8E1AEBD4E30097C2C7 /* Apps@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7E0D8C1AEBD4E30097C2C7 /* Apps@3x.png */; };
+		FD7E0D911AEBD5350097C2C7 /* Contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7E0D8F1AEBD5350097C2C7 /* Contact@2x.png */; };
+		FD7E0D921AEBD5350097C2C7 /* Contact@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7E0D901AEBD5350097C2C7 /* Contact@3x.png */; };
+		FDCB99571AED7E5A001511D6 /* Dribbble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB994F1AED7E5A001511D6 /* Dribbble@2x.png */; };
+		FDCB99581AED7E5A001511D6 /* Dribbble@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB99501AED7E5A001511D6 /* Dribbble@3x.png */; };
+		FDCB99591AED7E5A001511D6 /* Email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB99511AED7E5A001511D6 /* Email@2x.png */; };
+		FDCB995A1AED7E5A001511D6 /* Email@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB99521AED7E5A001511D6 /* Email@3x.png */; };
+		FDCB995C1AED7E5A001511D6 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB99541AED7E5A001511D6 /* fb.png */; };
+		FDCB995D1AED7E5A001511D6 /* Twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB99551AED7E5A001511D6 /* Twitter@2x.png */; };
+		FDCB99611AED7ED8001511D6 /* SJSocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCB99601AED7ED8001511D6 /* SJSocialViewController.m */; };
+		FDCB99641AED8AA0001511D6 /* SJAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCB99621AED8AA0001511D6 /* SJAppViewController.m */; };
+		FDCB99721AED9EF3001511D6 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB99711AED9EF3001511D6 /* me.png */; };
+		FDCB99741AED9F65001511D6 /* AboutMe1.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB99731AED9F65001511D6 /* AboutMe1.png */; };
+		FDCB99771AED9F8C001511D6 /* About@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB99751AED9F8C001511D6 /* About@2x.png */; };
+		FDCB99781AED9F8C001511D6 /* About@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB99761AED9F8C001511D6 /* About@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD58E7E71AEB763000F660DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD58E7C51AEB763000F660DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD58E7CC1AEB763000F660DA;
+			remoteInfo = "Shasvat Jain";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1348238A1AEC051000B7AD46 /* Hobbies@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hobbies@3x.png"; sourceTree = "<group>"; };
+		134823901AEC0AB600B7AD46 /* Company@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company@2x.png"; sourceTree = "<group>"; };
+		134823911AEC0AB600B7AD46 /* Company@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company@3x.png"; sourceTree = "<group>"; };
+		134823941AEC0C6E00B7AD46 /* Education@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Education@3x.png"; sourceTree = "<group>"; };
+		134823951AEC0C6E00B7AD46 /* Education@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Education@2x.png"; sourceTree = "<group>"; };
+		134823981AEC0F1700B7AD46 /* future@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "future@2x.png"; sourceTree = "<group>"; };
+		134823991AEC0F1700B7AD46 /* future@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "future@3x.png"; sourceTree = "<group>"; };
+		1348239C1AEC11DB00B7AD46 /* inspiration@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inspiration@2x.png"; sourceTree = "<group>"; };
+		1348239D1AEC11DB00B7AD46 /* inspiration@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inspiration@3x.png"; sourceTree = "<group>"; };
+		134823A01AEC131F00B7AD46 /* achievements@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "achievements@2x.png"; sourceTree = "<group>"; };
+		134823A11AEC131F00B7AD46 /* achievements@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "achievements@3x.png"; sourceTree = "<group>"; };
+		134823A41AEC15A400B7AD46 /* Xcode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xcode@2x.png"; sourceTree = "<group>"; };
+		134823A51AEC15A400B7AD46 /* Xcode@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xcode@3x.png"; sourceTree = "<group>"; };
+		134823A81AEC17D900B7AD46 /* Skills@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Skills@2x.png"; sourceTree = "<group>"; };
+		134823A91AEC17D900B7AD46 /* Skills@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Skills@3x.png"; sourceTree = "<group>"; };
+		134823AC1AEC1A8000B7AD46 /* Photoshop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Photoshop@3x.png"; sourceTree = "<group>"; };
+		134823AD1AEC1A8000B7AD46 /* Photoshop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Photoshop@2x.png"; sourceTree = "<group>"; };
+		134823B01AEC1B3A00B7AD46 /* Sketch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sketch@3x.png"; sourceTree = "<group>"; };
+		134823B11AEC1B3A00B7AD46 /* Sketch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sketch@2x.png"; sourceTree = "<group>"; };
+		134823B41AEC1CD500B7AD46 /* illustrator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "illustrator@2x.png"; sourceTree = "<group>"; };
+		134823B51AEC1CD500B7AD46 /* illustrator@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "illustrator@3x.png"; sourceTree = "<group>"; };
+		134823B61AEC1CD500B7AD46 /* AfterEffect@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AfterEffect@3x.png"; sourceTree = "<group>"; };
+		134823B71AEC1CD500B7AD46 /* AfterEffect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AfterEffect@2x.png"; sourceTree = "<group>"; };
+		134823BC1AEC229600B7AD46 /* Social@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Social@3x.png"; sourceTree = "<group>"; };
+		134823BD1AEC229700B7AD46 /* Social@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Social@2x.png"; sourceTree = "<group>"; };
+		134823C01AEC260300B7AD46 /* MyApps@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyApps@3x.png"; sourceTree = "<group>"; };
+		134823C11AEC260400B7AD46 /* MyApps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyApps@2x.png"; sourceTree = "<group>"; };
+		134823C51AEC294900B7AD46 /* SolitaryGuide@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SolitaryGuide@3x.png"; sourceTree = "<group>"; };
+		134823C61AEC294900B7AD46 /* SolitaryGuide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SolitaryGuide@2x.png"; sourceTree = "<group>"; };
+		134823CD1AEC2DFD00B7AD46 /* IDN@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IDN@3x.png"; sourceTree = "<group>"; };
+		134823CE1AEC2DFD00B7AD46 /* IDN@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IDN@2x.png"; sourceTree = "<group>"; };
+		134823D51AEC30BB00B7AD46 /* Smbc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Smbc@2x.png"; sourceTree = "<group>"; };
+		134823D61AEC30BB00B7AD46 /* Smbc@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Smbc@3x.png"; sourceTree = "<group>"; };
+		134823DC1AEC335200B7AD46 /* FlickyNinja@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlickyNinja@3x.png"; sourceTree = "<group>"; };
+		134823DF1AEC335200B7AD46 /* FlickyNinja@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlickyNinja@2x.png"; sourceTree = "<group>"; };
+		134823ED1AEC38FC00B7AD46 /* Dribbble@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dribbble@3x.png"; sourceTree = "<group>"; };
+		134823EF1AEC38FC00B7AD46 /* Dribbble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dribbble@2x.png"; sourceTree = "<group>"; };
+		134823F41AEC3A0200B7AD46 /* Twitter@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter@3x.png"; sourceTree = "<group>"; };
+		134823F71AEC3A0200B7AD46 /* Twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter@2x.png"; sourceTree = "<group>"; };
+		352C73A7597DFC01B99FFFA8 /* Pods-Shasvat Jain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shasvat Jain.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shasvat Jain/Pods-Shasvat Jain.release.xcconfig"; sourceTree = "<group>"; };
+		3E5046AD77E08102C23958C6 /* Pods-Shasvat Jain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shasvat Jain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shasvat Jain/Pods-Shasvat Jain.debug.xcconfig"; sourceTree = "<group>"; };
+		825FDB5C32FFCEBFDC5EAD06 /* Pods_Shasvat_Jain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shasvat_Jain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1B4DB41AED3FEC00014017 /* Shasvat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shasvat@2x.png"; sourceTree = "<group>"; };
+		FD1B4DB51AED3FEC00014017 /* Shasvat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shasvat@3x.png"; sourceTree = "<group>"; };
+		FD1B4DB81AED491300014017 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		FD1B4DB91AED491300014017 /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
+		FD1B4DBA1AED491300014017 /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg4.png; sourceTree = "<group>"; };
+		FD1B4DBB1AED491300014017 /* bg5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg5.png; sourceTree = "<group>"; };
+		FD1B4DFE1AED4C7100014017 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		FD1B4DFF1AED4C7100014017 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		FD1B4E001AED4C7100014017 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		FD1B4E011AED4C7100014017 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		FD1B4E021AED4C7100014017 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		FD1B4E031AED4C7100014017 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		FD1B4E041AED4C7100014017 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		FD1B4E051AED4C7100014017 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		FD1B4E061AED4C7100014017 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		FD1B4E071AED4C7100014017 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		FD1B4E081AED4C7100014017 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		FD1B4E091AED4C7100014017 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		FD1B4E0A1AED4C7100014017 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Spring/Info.plist; sourceTree = "<group>"; };
+		FD1B4E0B1AED4C7100014017 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		FD1B4E0C1AED4C7100014017 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		FD1B4E0D1AED4C7100014017 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		FD1B4E0E1AED4C7100014017 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		FD1B4E0F1AED4C7100014017 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		FD1B4E101AED4C7100014017 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Spring.h; path = Spring/Spring.h; sourceTree = "<group>"; };
+		FD1B4E111AED4C7100014017 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		FD1B4E121AED4C7100014017 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		FD1B4E131AED4C7100014017 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		FD1B4E141AED4C7100014017 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		FD1B4E151AED4C7100014017 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		FD1B4E161AED4C7100014017 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		FD1B4E171AED4C7100014017 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		FD1B4E181AED4C7100014017 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		FD1B4E191AED4C7100014017 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		FD1B4E1A1AED4C7100014017 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		FD1B4E1B1AED4C7100014017 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		FD58E7CD1AEB763000F660DA /* Shasvat Jain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shasvat Jain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD58E7D11AEB763000F660DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD58E7D21AEB763000F660DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD58E7D41AEB763000F660DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD58E7D51AEB763000F660DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD58E7D71AEB763000F660DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD58E7D81AEB763000F660DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD58E7DB1AEB763000F660DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD58E7DD1AEB763000F660DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD58E7E61AEB763000F660DA /* Shasvat JainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shasvat JainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD58E7EB1AEB763000F660DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD58E7EC1AEB763000F660DA /* Shasvat_JainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shasvat_JainTests.m; sourceTree = "<group>"; };
+		FD58E7F61AEB7BCA00F660DA /* Shasvat Jain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shasvat Jain-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD58E7F71AEB7BCA00F660DA /* myswift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myswift.swift; sourceTree = "<group>"; };
+		FD58E7FF1AEB801B00F660DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD58E8011AEB802000F660DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD58E8031AEB802700F660DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD58E8051AEB80A000F660DA /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		FD58E8061AEB80A000F660DA /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
+		FD58E80B1AEB952200F660DA /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Images.xcassets/bg.png; sourceTree = "<group>"; };
+		FD58E80D1AEB99C200F660DA /* skill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "skill@2x.png"; path = "Images.xcassets/skill@2x.png"; sourceTree = "<group>"; };
+		FD58E80E1AEB99C200F660DA /* skill@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "skill@3x.png"; path = "Images.xcassets/skill@3x.png"; sourceTree = "<group>"; };
+		FD7E0D881AEBD31E0097C2C7 /* shasvat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shasvat@3x.png"; path = "Images.xcassets/shasvat@3x.png"; sourceTree = "<group>"; };
+		FD7E0D8B1AEBD4E30097C2C7 /* Apps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Apps@2x.png"; path = "Images.xcassets/Apps@2x.png"; sourceTree = "<group>"; };
+		FD7E0D8C1AEBD4E30097C2C7 /* Apps@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Apps@3x.png"; path = "Images.xcassets/Apps@3x.png"; sourceTree = "<group>"; };
+		FD7E0D8F1AEBD5350097C2C7 /* Contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Contact@2x.png"; path = "Images.xcassets/Contact@2x.png"; sourceTree = "<group>"; };
+		FD7E0D901AEBD5350097C2C7 /* Contact@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Contact@3x.png"; path = "Images.xcassets/Contact@3x.png"; sourceTree = "<group>"; };
+		FDCB994F1AED7E5A001511D6 /* Dribbble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dribbble@2x.png"; sourceTree = "<group>"; };
+		FDCB99501AED7E5A001511D6 /* Dribbble@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dribbble@3x.png"; sourceTree = "<group>"; };
+		FDCB99511AED7E5A001511D6 /* Email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Email@2x.png"; sourceTree = "<group>"; };
+		FDCB99521AED7E5A001511D6 /* Email@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Email@3x.png"; sourceTree = "<group>"; };
+		FDCB99541AED7E5A001511D6 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		FDCB99551AED7E5A001511D6 /* Twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter@2x.png"; sourceTree = "<group>"; };
+		FDCB99561AED7E5A001511D6 /* Twitter@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter@3x.png"; sourceTree = "<group>"; };
+		FDCB995F1AED7ED8001511D6 /* SJSocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSocialViewController.h; sourceTree = "<group>"; };
+		FDCB99601AED7ED8001511D6 /* SJSocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSocialViewController.m; sourceTree = "<group>"; };
+		FDCB99621AED8AA0001511D6 /* SJAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAppViewController.m; sourceTree = "<group>"; };
+		FDCB99631AED8AA0001511D6 /* SJAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAppViewController.h; sourceTree = "<group>"; };
+		FDCB99711AED9EF3001511D6 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		FDCB99731AED9F65001511D6 /* AboutMe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutMe1.png; sourceTree = "<group>"; };
+		FDCB99751AED9F8C001511D6 /* About@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About@2x.png"; sourceTree = "<group>"; };
+		FDCB99761AED9F8C001511D6 /* About@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD58E7CA1AEB763000F660DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD58E8041AEB802700F660DA /* CoreGraphics.framework in Frameworks */,
+				FD58E8021AEB802000F660DA /* UIKit.framework in Frameworks */,
+				FD58E8001AEB801B00F660DA /* Foundation.framework in Frameworks */,
+				EAB70201FE270E97C65B049A /* Pods_Shasvat_Jain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD58E7E31AEB763000F660DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		248F6A129B4259F803E2FFA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD58E8031AEB802700F660DA /* CoreGraphics.framework */,
+				FD58E8011AEB802000F660DA /* UIKit.framework */,
+				FD58E7FF1AEB801B00F660DA /* Foundation.framework */,
+				825FDB5C32FFCEBFDC5EAD06 /* Pods_Shasvat_Jain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD8E861BBB51CABD23912C64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E5046AD77E08102C23958C6 /* Pods-Shasvat Jain.debug.xcconfig */,
+				352C73A7597DFC01B99FFFA8 /* Pods-Shasvat Jain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD1B4DC21AED4C4600014017 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				FD1B4DFE1AED4C7100014017 /* AsyncButton.swift */,
+				FD1B4DFF1AED4C7100014017 /* AsyncImageView.swift */,
+				FD1B4E001AED4C7100014017 /* AutoTextView.swift */,
+				FD1B4E011AED4C7100014017 /* BlurView.swift */,
+				FD1B4E021AED4C7100014017 /* DesignableButton.swift */,
+				FD1B4E031AED4C7100014017 /* DesignableImageView.swift */,
+				FD1B4E041AED4C7100014017 /* DesignableLabel.swift */,
+				FD1B4E051AED4C7100014017 /* DesignableTabBarController.swift */,
+				FD1B4E061AED4C7100014017 /* DesignableTextField.swift */,
+				FD1B4E071AED4C7100014017 /* DesignableTextView.swift */,
+				FD1B4E081AED4C7100014017 /* DesignableView.swift */,
+				FD1B4E091AED4C7100014017 /* ImageLoader.swift */,
+				FD1B4E0A1AED4C7100014017 /* Info.plist */,
+				FD1B4E0B1AED4C7100014017 /* KeyboardLayoutConstraint.swift */,
+				FD1B4E0C1AED4C7100014017 /* LoadingView.swift */,
+				FD1B4E0D1AED4C7100014017 /* LoadingView.xib */,
+				FD1B4E0E1AED4C7100014017 /* Misc.swift */,
+				FD1B4E0F1AED4C7100014017 /* SoundPlayer.swift */,
+				FD1B4E101AED4C7100014017 /* Spring.h */,
+				FD1B4E111AED4C7100014017 /* Spring.swift */,
+				FD1B4E121AED4C7100014017 /* SpringAnimation.swift */,
+				FD1B4E131AED4C7100014017 /* SpringButton.swift */,
+				FD1B4E141AED4C7100014017 /* SpringImageView.swift */,
+				FD1B4E151AED4C7100014017 /* SpringLabel.swift */,
+				FD1B4E161AED4C7100014017 /* SpringTextField.swift */,
+				FD1B4E171AED4C7100014017 /* SpringTextView.swift */,
+				FD1B4E181AED4C7100014017 /* SpringView.swift */,
+				FD1B4E191AED4C7100014017 /* TransitionManager.swift */,
+				FD1B4E1A1AED4C7100014017 /* TransitionZoom.swift */,
+				FD1B4E1B1AED4C7100014017 /* UnwindSegue.swift */,
+			);
+			name = Spring;
+			sourceTree = "<group>";
+		};
+		FD58E7C41AEB763000F660DA = {
+			isa = PBXGroup;
+			children = (
+				FD58E7CF1AEB763000F660DA /* Shasvat Jain */,
+				FD58E7E91AEB763000F660DA /* Shasvat JainTests */,
+				FD58E7CE1AEB763000F660DA /* Products */,
+				DD8E861BBB51CABD23912C64 /* Pods */,
+				248F6A129B4259F803E2FFA1 /* Frameworks */,
+				FD58E7F61AEB7BCA00F660DA /* Shasvat Jain-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		FD58E7CE1AEB763000F660DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD58E7CD1AEB763000F660DA /* Shasvat Jain.app */,
+				FD58E7E61AEB763000F660DA /* Shasvat JainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD58E7CF1AEB763000F660DA /* Shasvat Jain */ = {
+			isa = PBXGroup;
+			children = (
+				FD58E7D41AEB763000F660DA /* AppDelegate.h */,
+				FD58E7D51AEB763000F660DA /* AppDelegate.m */,
+				FD58E7D71AEB763000F660DA /* ViewController.h */,
+				FD58E7D81AEB763000F660DA /* ViewController.m */,
+				FD58E8051AEB80A000F660DA /* SecondView.h */,
+				FD58E8061AEB80A000F660DA /* SecondView.m */,
+				FDCB995F1AED7ED8001511D6 /* SJSocialViewController.h */,
+				FDCB99601AED7ED8001511D6 /* SJSocialViewController.m */,
+				FDCB99631AED8AA0001511D6 /* SJAppViewController.h */,
+				FDCB99621AED8AA0001511D6 /* SJAppViewController.m */,
+				FD58E7F71AEB7BCA00F660DA /* myswift.swift */,
+				FD58E7DA1AEB763000F660DA /* Main.storyboard */,
+				FD1B4DC21AED4C4600014017 /* Spring */,
+				FD58E7DD1AEB763000F660DA /* Images.xcassets */,
+				FD58E8111AEB99C700F660DA /* images */,
+				FD58E7D01AEB763000F660DA /* Supporting Files */,
+			);
+			path = "Shasvat Jain";
+			sourceTree = "<group>";
+		};
+		FD58E7D01AEB763000F660DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD58E7D11AEB763000F660DA /* Info.plist */,
+				FD58E7D21AEB763000F660DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD58E7E91AEB763000F660DA /* Shasvat JainTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD58E7EC1AEB763000F660DA /* Shasvat_JainTests.m */,
+				FD58E7EA1AEB763000F660DA /* Supporting Files */,
+			);
+			path = "Shasvat JainTests";
+			sourceTree = "<group>";
+		};
+		FD58E7EA1AEB763000F660DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD58E7EB1AEB763000F660DA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD58E8111AEB99C700F660DA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB99731AED9F65001511D6 /* AboutMe1.png */,
+				FDCB994F1AED7E5A001511D6 /* Dribbble@2x.png */,
+				FDCB99501AED7E5A001511D6 /* Dribbble@3x.png */,
+				FDCB99511AED7E5A001511D6 /* Email@2x.png */,
+				FDCB99521AED7E5A001511D6 /* Email@3x.png */,
+				FDCB99541AED7E5A001511D6 /* fb.png */,
+				FDCB99551AED7E5A001511D6 /* Twitter@2x.png */,
+				FDCB99561AED7E5A001511D6 /* Twitter@3x.png */,
+				FD1B4DB81AED491300014017 /* bg2.png */,
+				FD1B4DB91AED491300014017 /* bg3.png */,
+				FD1B4DBA1AED491300014017 /* bg4.png */,
+				FD1B4DBB1AED491300014017 /* bg5.png */,
+				FD1B4DB41AED3FEC00014017 /* Shasvat@2x.png */,
+				FD1B4DB51AED3FEC00014017 /* Shasvat@3x.png */,
+				FDCB99711AED9EF3001511D6 /* me.png */,
+				FD7E0D881AEBD31E0097C2C7 /* shasvat@3x.png */,
+				FD58E80B1AEB952200F660DA /* bg.png */,
+				FD58E80D1AEB99C200F660DA /* skill@2x.png */,
+				FD58E80E1AEB99C200F660DA /* skill@3x.png */,
+				FD7E0D8B1AEBD4E30097C2C7 /* Apps@2x.png */,
+				FD7E0D8C1AEBD4E30097C2C7 /* Apps@3x.png */,
+				FD7E0D8F1AEBD5350097C2C7 /* Contact@2x.png */,
+				FD7E0D901AEBD5350097C2C7 /* Contact@3x.png */,
+				1348238A1AEC051000B7AD46 /* Hobbies@3x.png */,
+				134823901AEC0AB600B7AD46 /* Company@2x.png */,
+				134823911AEC0AB600B7AD46 /* Company@3x.png */,
+				134823941AEC0C6E00B7AD46 /* Education@3x.png */,
+				134823951AEC0C6E00B7AD46 /* Education@2x.png */,
+				134823981AEC0F1700B7AD46 /* future@2x.png */,
+				134823991AEC0F1700B7AD46 /* future@3x.png */,
+				1348239C1AEC11DB00B7AD46 /* inspiration@2x.png */,
+				1348239D1AEC11DB00B7AD46 /* inspiration@3x.png */,
+				134823A01AEC131F00B7AD46 /* achievements@2x.png */,
+				134823A11AEC131F00B7AD46 /* achievements@3x.png */,
+				134823A41AEC15A400B7AD46 /* Xcode@2x.png */,
+				134823A51AEC15A400B7AD46 /* Xcode@3x.png */,
+				134823A81AEC17D900B7AD46 /* Skills@2x.png */,
+				134823A91AEC17D900B7AD46 /* Skills@3x.png */,
+				134823AC1AEC1A8000B7AD46 /* Photoshop@3x.png */,
+				134823AD1AEC1A8000B7AD46 /* Photoshop@2x.png */,
+				134823B01AEC1B3A00B7AD46 /* Sketch@3x.png */,
+				134823B11AEC1B3A00B7AD46 /* Sketch@2x.png */,
+				134823B41AEC1CD500B7AD46 /* illustrator@2x.png */,
+				134823B51AEC1CD500B7AD46 /* illustrator@3x.png */,
+				134823B61AEC1CD500B7AD46 /* AfterEffect@3x.png */,
+				134823B71AEC1CD500B7AD46 /* AfterEffect@2x.png */,
+				134823BC1AEC229600B7AD46 /* Social@3x.png */,
+				134823BD1AEC229700B7AD46 /* Social@2x.png */,
+				134823C01AEC260300B7AD46 /* MyApps@3x.png */,
+				134823C11AEC260400B7AD46 /* MyApps@2x.png */,
+				134823C51AEC294900B7AD46 /* SolitaryGuide@3x.png */,
+				134823C61AEC294900B7AD46 /* SolitaryGuide@2x.png */,
+				134823CD1AEC2DFD00B7AD46 /* IDN@3x.png */,
+				134823CE1AEC2DFD00B7AD46 /* IDN@2x.png */,
+				134823D51AEC30BB00B7AD46 /* Smbc@2x.png */,
+				134823D61AEC30BB00B7AD46 /* Smbc@3x.png */,
+				134823DC1AEC335200B7AD46 /* FlickyNinja@3x.png */,
+				134823DF1AEC335200B7AD46 /* FlickyNinja@2x.png */,
+				134823ED1AEC38FC00B7AD46 /* Dribbble@3x.png */,
+				134823EF1AEC38FC00B7AD46 /* Dribbble@2x.png */,
+				134823F41AEC3A0200B7AD46 /* Twitter@3x.png */,
+				134823F71AEC3A0200B7AD46 /* Twitter@2x.png */,
+				FDCB99751AED9F8C001511D6 /* About@2x.png */,
+				FDCB99761AED9F8C001511D6 /* About@3x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD58E7CC1AEB763000F660DA /* Shasvat Jain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD58E7F01AEB763000F660DA /* Build configuration list for PBXNativeTarget "Shasvat Jain" */;
+			buildPhases = (
+				18AFA2EAF03800598463BEB7 /* Check Pods Manifest.lock */,
+				FD58E7C91AEB763000F660DA /* Sources */,
+				FD58E7CA1AEB763000F660DA /* Frameworks */,
+				FD58E7CB1AEB763000F660DA /* Resources */,
+				1259C5392FBD7107819221EB /* Embed Pods Frameworks */,
+				922E585CF06EF3D21F27DB44 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shasvat Jain";
+			productName = "Shasvat Jain";
+			productReference = FD58E7CD1AEB763000F660DA /* Shasvat Jain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD58E7E51AEB763000F660DA /* Shasvat JainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD58E7F31AEB763000F660DA /* Build configuration list for PBXNativeTarget "Shasvat JainTests" */;
+			buildPhases = (
+				FD58E7E21AEB763000F660DA /* Sources */,
+				FD58E7E31AEB763000F660DA /* Frameworks */,
+				FD58E7E41AEB763000F660DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD58E7E81AEB763000F660DA /* PBXTargetDependency */,
+			);
+			name = "Shasvat JainTests";
+			productName = "Shasvat JainTests";
+			productReference = FD58E7E61AEB763000F660DA /* Shasvat JainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD58E7C51AEB763000F660DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DigitalHole;
+				TargetAttributes = {
+					FD58E7CC1AEB763000F660DA = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = UFWLT64PGT;
+					};
+					FD58E7E51AEB763000F660DA = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FD58E7CC1AEB763000F660DA;
+					};
+				};
+			};
+			buildConfigurationList = FD58E7C81AEB763000F660DA /* Build configuration list for PBXProject "Shasvat Jain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD58E7C41AEB763000F660DA;
+			productRefGroup = FD58E7CE1AEB763000F660DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD58E7CC1AEB763000F660DA /* Shasvat Jain */,
+				FD58E7E51AEB763000F660DA /* Shasvat JainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD58E7CB1AEB763000F660DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134823AA1AEC17D900B7AD46 /* Skills@2x.png in Resources */,
+				FDCB99741AED9F65001511D6 /* AboutMe1.png in Resources */,
+				134823D21AEC2DFD00B7AD46 /* IDN@2x.png in Resources */,
+				134823CA1AEC294900B7AD46 /* SolitaryGuide@2x.png in Resources */,
+				FD1B4DB71AED3FEC00014017 /* Shasvat@3x.png in Resources */,
+				134823BE1AEC229700B7AD46 /* Social@3x.png in Resources */,
+				134823AB1AEC17D900B7AD46 /* Skills@3x.png in Resources */,
+				134823C31AEC260400B7AD46 /* MyApps@2x.png in Resources */,
+				134823F81AEC3A0200B7AD46 /* Twitter@3x.png in Resources */,
+				FDCB995D1AED7E5A001511D6 /* Twitter@2x.png in Resources */,
+				134823961AEC0C6E00B7AD46 /* Education@3x.png in Resources */,
+				134823BF1AEC229700B7AD46 /* Social@2x.png in Resources */,
+				134823E01AEC335200B7AD46 /* FlickyNinja@3x.png in Resources */,
+				134823D11AEC2DFD00B7AD46 /* IDN@3x.png in Resources */,
+				134823921AEC0AB600B7AD46 /* Company@2x.png in Resources */,
+				134823B81AEC1CD500B7AD46 /* illustrator@2x.png in Resources */,
+				FD58E7DC1AEB763000F660DA /* Main.storyboard in Resources */,
+				134823C91AEC294900B7AD46 /* SolitaryGuide@3x.png in Resources */,
+				1348239F1AEC11DB00B7AD46 /* inspiration@3x.png in Resources */,
+				134823A61AEC15A400B7AD46 /* Xcode@2x.png in Resources */,
+				1348239A1AEC0F1700B7AD46 /* future@2x.png in Resources */,
+				FD7E0D8A1AEBD31E0097C2C7 /* shasvat@3x.png in Resources */,
+				FDCB99721AED9EF3001511D6 /* me.png in Resources */,
+				FD1B4DBD1AED491300014017 /* bg3.png in Resources */,
+				134823BB1AEC1CD500B7AD46 /* AfterEffect@2x.png in Resources */,
+				134823B91AEC1CD500B7AD46 /* illustrator@3x.png in Resources */,
+				1348239B1AEC0F1700B7AD46 /* future@3x.png in Resources */,
+				134823B21AEC1B3A00B7AD46 /* Sketch@3x.png in Resources */,
+				1348239E1AEC11DB00B7AD46 /* inspiration@2x.png in Resources */,
+				134823A71AEC15A400B7AD46 /* Xcode@3x.png in Resources */,
+				FD1B4DB61AED3FEC00014017 /* Shasvat@2x.png in Resources */,
+				FDCB99771AED9F8C001511D6 /* About@2x.png in Resources */,
+				FD1B4DBE1AED491300014017 /* bg4.png in Resources */,
+				FDCB995C1AED7E5A001511D6 /* fb.png in Resources */,
+				134823971AEC0C6E00B7AD46 /* Education@2x.png in Resources */,
+				1348238B1AEC051000B7AD46 /* Hobbies@3x.png in Resources */,
+				134823A31AEC131F00B7AD46 /* achievements@3x.png in Resources */,
+				FD58E80C1AEB952200F660DA /* bg.png in Resources */,
+				134823DA1AEC30BB00B7AD46 /* Smbc@3x.png in Resources */,
+				FD1B4DBF1AED491300014017 /* bg5.png in Resources */,
+				134823BA1AEC1CD500B7AD46 /* AfterEffect@3x.png in Resources */,
+				FD7E0D8D1AEBD4E30097C2C7 /* Apps@2x.png in Resources */,
+				134823AE1AEC1A8000B7AD46 /* Photoshop@3x.png in Resources */,
+				FD58E8101AEB99C200F660DA /* skill@3x.png in Resources */,
+				FD7E0D8E1AEBD4E30097C2C7 /* Apps@3x.png in Resources */,
+				FDCB99781AED9F8C001511D6 /* About@3x.png in Resources */,
+				134823B31AEC1B3A00B7AD46 /* Sketch@2x.png in Resources */,
+				134823D91AEC30BB00B7AD46 /* Smbc@2x.png in Resources */,
+				FD7E0D921AEBD5350097C2C7 /* Contact@3x.png in Resources */,
+				FD58E80F1AEB99C200F660DA /* skill@2x.png in Resources */,
+				FDCB99571AED7E5A001511D6 /* Dribbble@2x.png in Resources */,
+				134823A21AEC131F00B7AD46 /* achievements@2x.png in Resources */,
+				FD1B4E2B1AED4C7100014017 /* LoadingView.xib in Resources */,
+				134823E31AEC335200B7AD46 /* FlickyNinja@2x.png in Resources */,
+				FDCB99581AED7E5A001511D6 /* Dribbble@3x.png in Resources */,
+				FD58E7DE1AEB763000F660DA /* Images.xcassets in Resources */,
+				FD7E0D911AEBD5350097C2C7 /* Contact@2x.png in Resources */,
+				FDCB995A1AED7E5A001511D6 /* Email@3x.png in Resources */,
+				FDCB99591AED7E5A001511D6 /* Email@2x.png in Resources */,
+				134823C21AEC260400B7AD46 /* MyApps@3x.png in Resources */,
+				134823931AEC0AB600B7AD46 /* Company@3x.png in Resources */,
+				FD1B4DBC1AED491300014017 /* bg2.png in Resources */,
+				134823AF1AEC1A8000B7AD46 /* Photoshop@2x.png in Resources */,
+				FD1B4E281AED4C7100014017 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD58E7E41AEB763000F660DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1259C5392FBD7107819221EB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shasvat Jain/Pods-Shasvat Jain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18AFA2EAF03800598463BEB7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		922E585CF06EF3D21F27DB44 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shasvat Jain/Pods-Shasvat Jain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD58E7C91AEB763000F660DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD58E7D91AEB763000F660DA /* ViewController.m in Sources */,
+				FD1B4E2D1AED4C7100014017 /* SoundPlayer.swift in Sources */,
+				FD1B4E211AED4C7100014017 /* DesignableImageView.swift in Sources */,
+				FD1B4E331AED4C7100014017 /* SpringTextField.swift in Sources */,
+				FD58E8071AEB80A000F660DA /* SecondView.m in Sources */,
+				FD1B4E241AED4C7100014017 /* DesignableTextField.swift in Sources */,
+				FD1B4E361AED4C7100014017 /* TransitionManager.swift in Sources */,
+				FD1B4E2F1AED4C7100014017 /* SpringAnimation.swift in Sources */,
+				FD1B4E1C1AED4C7100014017 /* AsyncButton.swift in Sources */,
+				FD1B4E291AED4C7100014017 /* KeyboardLayoutConstraint.swift in Sources */,
+				FD1B4E201AED4C7100014017 /* DesignableButton.swift in Sources */,
+				FD58E7D61AEB763000F660DA /* AppDelegate.m in Sources */,
+				FDCB99611AED7ED8001511D6 /* SJSocialViewController.m in Sources */,
+				FDCB99641AED8AA0001511D6 /* SJAppViewController.m in Sources */,
+				FD58E7D31AEB763000F660DA /* main.m in Sources */,
+				FD1B4E261AED4C7100014017 /* DesignableView.swift in Sources */,
+				FD1B4E371AED4C7100014017 /* TransitionZoom.swift in Sources */,
+				FD1B4E1F1AED4C7100014017 /* BlurView.swift in Sources */,
+				FD58E7F81AEB7BCA00F660DA /* myswift.swift in Sources */,
+				FD1B4E271AED4C7100014017 /* ImageLoader.swift in Sources */,
+				FD1B4E351AED4C7100014017 /* SpringView.swift in Sources */,
+				FD1B4E321AED4C7100014017 /* SpringLabel.swift in Sources */,
+				FD1B4E2C1AED4C7100014017 /* Misc.swift in Sources */,
+				FD1B4E231AED4C7100014017 /* DesignableTabBarController.swift in Sources */,
+				FD1B4E1E1AED4C7100014017 /* AutoTextView.swift in Sources */,
+				FD1B4E251AED4C7100014017 /* DesignableTextView.swift in Sources */,
+				FD1B4E2E1AED4C7100014017 /* Spring.swift in Sources */,
+				FD1B4E301AED4C7100014017 /* SpringButton.swift in Sources */,
+				FD1B4E381AED4C7100014017 /* UnwindSegue.swift in Sources */,
+				FD1B4E221AED4C7100014017 /* DesignableLabel.swift in Sources */,
+				FD1B4E311AED4C7100014017 /* SpringImageView.swift in Sources */,
+				FD1B4E2A1AED4C7100014017 /* LoadingView.swift in Sources */,
+				FD1B4E341AED4C7100014017 /* SpringTextView.swift in Sources */,
+				FD1B4E1D1AED4C7100014017 /* AsyncImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD58E7E21AEB763000F660DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD58E7ED1AEB763000F660DA /* Shasvat_JainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD58E7E81AEB763000F660DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD58E7CC1AEB763000F660DA /* Shasvat Jain */;
+			targetProxy = FD58E7E71AEB763000F660DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD58E7DA1AEB763000F660DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD58E7DB1AEB763000F660DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD58E7EE1AEB763000F660DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD58E7EF1AEB763000F660DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD58E7F11AEB763000F660DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5046AD77E08102C23958C6 /* Pods-Shasvat Jain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = "Shasvat Jain/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shasvat Jain-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD58E7F21AEB763000F660DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352C73A7597DFC01B99FFFA8 /* Pods-Shasvat Jain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = "Shasvat Jain/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shasvat Jain-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		FD58E7F41AEB763000F660DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shasvat JainTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shasvat Jain.app/Shasvat Jain";
+			};
+			name = Debug;
+		};
+		FD58E7F51AEB763000F660DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shasvat JainTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shasvat Jain.app/Shasvat Jain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD58E7C81AEB763000F660DA /* Build configuration list for PBXProject "Shasvat Jain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD58E7EE1AEB763000F660DA /* Debug */,
+				FD58E7EF1AEB763000F660DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD58E7F01AEB763000F660DA /* Build configuration list for PBXNativeTarget "Shasvat Jain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD58E7F11AEB763000F660DA /* Debug */,
+				FD58E7F21AEB763000F660DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD58E7F31AEB763000F660DA /* Build configuration list for PBXNativeTarget "Shasvat JainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD58E7F41AEB763000F660DA /* Debug */,
+				FD58E7F51AEB763000F660DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD58E7C51AEB763000F660DA /* Project object */;
+}

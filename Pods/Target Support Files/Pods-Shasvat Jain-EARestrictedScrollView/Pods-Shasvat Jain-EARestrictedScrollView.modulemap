@@ -1,0 +1,6 @@
+framework module EARestrictedScrollView {
+  umbrella header "Pods-Shasvat Jain-EARestrictedScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

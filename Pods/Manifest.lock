@@ -1,0 +1,16 @@
+PODS:
+  - EAIntroView (2.7.0):
+    - EARestrictedScrollView (~> 0.1.0)
+  - EARestrictedScrollView (0.1.0)
+  - Shimmer (1.0.2)
+
+DEPENDENCIES:
+  - EAIntroView (~> 2.7.0)
+  - Shimmer (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  EAIntroView: 9becdb1441712405346a3e6bc31b0d9a57b63b10
+  EARestrictedScrollView: 5ab3eadd9ea55282cc72df0daecb09803059e3a0
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+
+COCOAPODS: 0.36.3
